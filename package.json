@@ -14,10 +14,7 @@
   },
   "author": "Anil Duyguc",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MrKenobii/WebSports/issues"
-  },
-  "homepage": "https://github.com/MrKenobii/WebSports#readme",
+
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
