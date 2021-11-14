@@ -14,7 +14,6 @@
   },
   "author": "Anil Duyguc",
   "license": "ISC",
-
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
