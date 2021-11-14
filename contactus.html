@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>WebSports</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a href="./index.html" class="nav-link"><span class="fa fa-home fa-lg"></span>
+                            Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Branches
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./index.html">Formula 1</a></li>
+                            <li><a class="dropdown-item" href="./nba.html">NBA</a></li>
+                            <li><a class="dropdown-item" href="./champions.html">Champions League</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link active"><span
+                                class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                </ul>
+                <a href="#" class="navbar-brand me-auto"><img src="img/sports.png" height="30" width="200"></a>
+                <span class="navbar-text">
+                    <!-- <a data-bs-toggle="modal" data-bs-target="#loginModal">  Removed data-bs-*
+                        <span class="fa fa-sign-in"></span> Login
+                    </a> -->
+                    <a id="loginButton">
+                        <span class="fa fa-sign-in"></span> Login
+                    </a>
+                </span>
+
+            </div>
+        </div>
+    </nav>
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="contentinfo">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row row">
+                            <div class="col-lg-4 col-sm-4">
+                                <input type="email" placeholder="Enter Email" class="form-control form-control-sm me-1"
+                                    id="inputEmail1">
+                            </div>
+                            <div class="col-lg-4 col-sm-4">
+                                <input type="password" placeholder="Password" class="form-control form-control-sm me-1"
+                                    id="inputPassword1">
+                            </div>
+                            <div class="col-lg-auto col-sm-auto">
+                                <input type="checkbox" class="form-check-input">
+                                <label class="form-check-label">Remember Me</label>
+                            </div>
+                        </div>
+                        <div class="form-row row mt-2">
+                            <div class="col-sm-9 col-lg-9"></div>
+                            <div class="col-sm-1 col-lg-1">
+                                <button type="button" class="btn btn-secondary btn-sm"
+                                    data-bs-dismiss="modal">Cancel</button>
+                            </div>
+                            <div class="col-sm-2 col-lg-2">
+                                <button type="button" class="btn btn-primary btn-sm ml-1">Sign In</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-lg-6  col-lg-6 col-sm-10">
+                    <h1>WebSports</h1>
+                    <p>All Succesfull Racing Drivers , NBA Champions, Champions League Champions are here. Let's what
+                        they had been through!</p>
+                </div>
+                <div class="col-lg-3 col-sm-10 align-self-center">
+                    
+                </div>
+                <div class="col-lg-3 col-sm-10 align-self-center">
+                    <div class="offset-md-2 col-md-10 d-grid">
+                        <a href="#" class="navbar-brand me-auto"><img src="img/contactlogo.png" height="120"
+                                width="200"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 offset-1 col-sm-2 text-light">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-light"href="#">Home</a></li>
+                        <li><a class="text-light"href="./contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5 text-light">
+                    <h5>Our Adress</h5>
+                    <address class="text-light">
+                        12312312, AAA road<br>
+                        Upsilon Alfa x0 bay<br>
+                        Turkey<br>
+                        <i class="fa fa-phone fa-lg"></i>: +111 3333 4444 <br>
+                        <i class="fa fa-fax fa-lg"></i>: +111 4444 3333<br>
+                        <i class="fa fa-envelope fa-lg"></i>: <a
+                            href="mailto:anilduyguc3535@gmail.com" class="text-light">anilduyguc3535@gmail.com</a>
+                    </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i
+                                class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i
+                                class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
+                                class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                                class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon text-light" href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto text-light">
+                    <p>© Copyright 2021 WebSports</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
